@@ -3,7 +3,15 @@ project(cprimer)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES chapter01/main.cpp)
+set(SOURCE_FILES
+        chapter01/install.cpp
+        chapter01/ch1_2.h
+        chapter01/ch1_3.h
+        chapter01/ch1_4_1.h
+        chapter01/ch1_4_2.h
+        chapter01/ch1_4_3.h
+
+        )
 
 add_executable(cprimer ${SOURCE_FILES})
 
